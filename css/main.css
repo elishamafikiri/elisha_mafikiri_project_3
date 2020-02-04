@@ -1,0 +1,399 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* fonts 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Thasadith', sans-serif;
+font-family: 'Buda', cursive;
+font-family: 'Cantata One', serif;
+font-family: 'Julius Sans One', sans-serif;
+
+*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	color: #777;
+	background-color: #b2d6ee;
+
+}
+
+/*---header starts here---*/
+
+.header {
+	height: 64px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: inline-block;
+	background-color: #fff;
+	padding: 7px;
+	font-size: 20px;
+}
+
+.logo {
+	background-color: #b2d6ee;
+	width: 10%;
+	float: left;
+}
+
+.logo h2 {
+	line-height: 50px;
+	font-weight: 900;
+	color: #fff;
+} 
+
+.navSection {
+	margin-left: 0;
+	margin-right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	border-radius: 25px;
+	background-color: #e4e4e4;
+}
+
+
+.navSection h2 {
+	line-height: 50px;
+}
+
+/*---header ends here---*/
+
+/*-----banner opens here ----*/
+
+.banner {
+	background-color: #e4e4e4;
+	text-align: center;
+}
+
+.banner h2 {
+	line-height: 350px;
+	font-size: 20px;
+}
+
+/*-----banner ends here ----*/
+
+/*--------products section starts here----*/
+main {
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+.products {
+	display: flex;
+	flex: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.item {
+	width: 350px;
+	margin: 10px;
+	height: 445px;
+	justify-content: center;
+	text-align: center;
+	font-size: 13px;
+}
+
+.item {
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 0px;
+	background-color: #fff;
+}
+
+
+
+.item .itemImage {
+	background-color: #e4e4e4;
+	border-style: solid;
+	border-width: 0px;
+	border-color: #e4e4e4;
+	border-radius: 10px 10px 0px 100px;
+}
+.item h2 {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	display: center;
+	line-height: 225px;
+}
+
+
+/*--------HOVERING ITEMS (FOR FUN)----*/
+.item:hover {
+	transition: 0.3s ease-in;
+	transition: 0.5s ease-out;
+ 	box-shadow: 0px 15px 15px #96b5c9;
+ 	top: 10px;
+
+}
+
+/*--------CLOSE HOVERING ----*/
+
+/*--------products section ends here----*/
+
+.testimonials {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1090px;
+	border-style: solid;
+	border-width: 0px;
+	border-color: #fff;
+	position: relative;
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+
+.testimonialList {
+	background-color: #fff;
+	color: #979797;
+	height: 75px;
+	line-height: 75px;
+}
+
+.testimonial {
+	width: 495px;
+	background-color: white;
+	border-radius: 65px;
+	text-align: center;
+	margin-top: 20px;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 20px;
+
+}
+
+.testimonial span{
+	width: 90px;
+	height: 90px;
+	background-color: #9fa4d2;
+	color: #fff;
+	float: left;
+	text-align: center;
+	border-radius: 100%;
+
+}
+
+#testimonialName {
+	margin-top: 35px;
+	font-size: 13px;
+}
+
+.testimonial h2 {
+	margin-top: 35px;
+
+}
+
+.lists {
+	background-color: #e4e4e4;
+	min-height: 131px;
+	display: flex;
+	justify-content: center;
+	direction: row;
+	flex-wrap: wrap;
+
+}
+
+/*----Ftestimonial section ends here -----*/
+
+
+/*----Foooter section -----*/
+
+footer {
+
+	color: #fff;
+	height: 200px;
+	background-color: #d56b5a;
+	padding: 20px;
+	margin-top: 20px;
+	padding-right: 10%;
+	padding-left: 10%;
+	font-size: 20px
+	font-weight: 600;
+}
+
+#footerLogo { 
+	margin-left: auto;
+	margin-right: auto;
+	width: 1090px;
+	text-align: center;
+} 
+
+
+#footerLogo h2{ 
+	background-color: #b2d6ee;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: 900;
+	float: left;
+	width: 119px;
+}
+
+.footerNav {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	text-align: center;
+	font-size: 20px;
+	color: #777;
+}
+
+
+
+.footerNav .naviSection nav h2{
+	background-color: #ddd;
+	border-color: #fefe;
+	line-height: 41px;
+	width: 400px
+	border-radius: 21px;
+	margin-bottom: 20px;
+}
+
+
+.footerNav .socials h2{
+	background-color: #ddd;
+	border-color: #fefe;
+	line-height: 41px;
+	width: 400px
+	border-radius: 21px;
+	margin-bottom: 20px;
+}
+
+
+.footerNav .copyWrite h2{
+	background-color: #ddd;
+	border-color: #fefe;
+	line-height: 41px;
+	width: 400px
+	border-radius: 21px;
+	margin-bottom: 20px;
+}
+
+/*foooter closes here-------*/
+
+.contactPage {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1090px;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 100px;
+	font-weight: 900;
+}
+
+.content {
+	display: flex;
+	flex: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.contactArea {
+	width: 535px;
+	margin: 10px;
+	height: 985px;
+	justify-content: center;
+	text-align: center;
+	font-size: 13px;
+
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 0px;
+}
+
+#contactFrom {
+	width: 535px;
+	height: 985px;
+	text-align: center;
+	font-size: 209px;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 0px;
+	background-color: #fff;
+	font-size: 20px;
+
+}
+
+#contactArea {
+	background-color: white;
+	font-size: 20px;
+
+}
+
+.formImage h2 {
+	display: center;
+	line-height: 225px;	
+	background-color: #e4e4e4;
+	border-radius: 20px 20px 0px 0px;
+	border-style: solid;
+	border-width: 0px;
+}
+
+.form h2 {
+	display: center;
+	line-height: 545px;	
+}
+
+
+.card {
+	width: 535px;
+	height: 485px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 0px;
+	background-color: #fff;
+	font-size: 20px;
+	color: white;
+}
+
+.card .cardImage h2 {
+	display: center;
+	line-height: 225px;	
+	background-color: #ab63ce;
+	border-radius: 20px 20px 0px 100px;
+	border-style: solid;
+	border-width: 0px;
+
+}
+
+.card .cardInfo {
+	color: #777;
+	line-height: 225px;	
+}
+
+.map {
+	width: 545px;
+	height: 475px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 0px;
+	background-color: #fff;
+	font-size: 20px;
+	color: #777;
+	margin-top: 20px;
+}
+
+.map h2 {
+	line-height: 475px;	
+}
